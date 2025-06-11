@@ -1,0 +1,31 @@
+.chat-messages {
+  overflow-y: auto;
+  padding-right: 1rem;
+}
+
+.message {
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.chat-input {
+  flex: 1;
+  padding: 0.75rem;
+  border-radius: var(--amplify-radii-medium);
+  border: 1px solid var(--amplify-colors-neutral-60);
+  margin-right: 1rem;
+}
+
+.send-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: var(--amplify-colors-blue-60);
+  color: white;
+  border-radius: var(--amplify-radii-medium);
+  cursor: pointer;
+}
+
+.send-button:disabled {
+  background-color: var(--amplify-colors-neutral-60);
+  cursor: not-allowed;
+}
